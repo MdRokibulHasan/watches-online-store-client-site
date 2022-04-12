@@ -5,7 +5,7 @@ const Regiser = () => {
   return (
     <div className=" register-section">
       <div className="login-title">
-        <h1 className="text-center mb-2">Plase Register</h1>
+        <h1 className="text-center mb-2">Please Register</h1>
         <div className="login-input">
           <form>
             <div className="form-group pb-2 my-3">
@@ -31,7 +31,7 @@ const Regiser = () => {
             </div>
 
             <button type="button" class="btn-login my-2 mt-3">
-              Regiser{" "}
+              Register{" "}
             </button>
             <div className="">
               <span>Have a account?</span>

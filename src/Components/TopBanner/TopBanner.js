@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import "./TopBanner.css";
 const TopBanner = () => {
   return (
-    <div>
+    <div className="banner-section">
       <Carousel>
         <Carousel.Item interval={1000} className="carousel-item">
           <img className="d-block w-100" src={SlideImage1} alt="First slide" />

@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer-section">
         <hr />
         <div className="container">
-          <div className="d-flex justify-content-between">
+          <div className="d-flex align-items-center justify-content-between">
             <div className="brand-name ">
               <h3>Watch Store</h3>
             </div>

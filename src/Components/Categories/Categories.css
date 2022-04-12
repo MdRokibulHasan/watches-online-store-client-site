@@ -1,0 +1,33 @@
+.categories-image img{
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+}
+.categories-image{
+    border-radius: 50%;
+    text-align: center;
+}
+.categories-title{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.categories-title h2 {
+    color: #000;
+    font-family: "Jost",Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.categories-name p{
+    color: #000;
+    font-family: "Jost",Sans-serif;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.item-image img{
+    height: 489px;
+    width: 694px;
+}

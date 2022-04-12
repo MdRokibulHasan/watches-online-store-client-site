@@ -1,21 +1,22 @@
 import React from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import useAuth from "../../../Components/Hooks/useAuth";
 
 import "./Login.css";
 const Login = () => {
-  // const { user, signInUsingGoogle } = UseAuth();
-  // const location = useLocation();
-  // const navigate = useNavigate();
-  // const uri = location.state?.form || "/";
-  // const handleGoogleLogin = () => {
-  //   signInUsingGoogle().then((result) => {
-  //     navigate(uri);
-  //   });
-  // };
+  const { googleSignIn } = useAuth();
+  const location = useLocation();
+  const history = useNavigate();
+  const redirect_uri = location.state?.from || "/home";
+  const handleGoogleLogin = () => {
+    googleSignIn().then((result) => {
+      history(redirect_uri);
+    });
+  };
   return (
     <div className=" login-section">
       <div className="login-title">
-        <h1 className="text-center mb-2">Plase Login</h1>
+        <h1 className="text-center mb-2">Please Login</h1>
         <div className="login-input">
           <form>
             <div className="form-group pb-2">
@@ -49,7 +50,10 @@ const Login = () => {
           </form>
         </div>
         <div className="google-btn d-flex justify-content-between">
-          <button className="link-button"> Google Sign IN</button>
+          <button onClick={handleGoogleLogin} className="link-button">
+            {" "}
+            Google Sign IN
+          </button>
           <button className="link-button"> Facebook Sign IN</button>
         </div>
       </div>

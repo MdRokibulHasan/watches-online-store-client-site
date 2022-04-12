@@ -1,8 +1,10 @@
 import React from "react";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
+import useAuth from "../../Hooks/useAuth";
 import "./Header.css";
 const Header = () => {
+  const { user, logOut } = useAuth();
   return (
     <div className="container-fluid">
       <Navbar collapseOnSelect expand="lg" variant="light" bg="light">
@@ -13,14 +15,20 @@ const Header = () => {
         <Navbar.Collapse id="responsive-navbar-nav" className="nav justify-content-end">
           <Nav className="item">
             <NavLink to="/">Home</NavLink>
-            <NavLink to="/product">Product</NavLink>
+            <NavLink to="/products">Product</NavLink>
             <NavLink to="/home">Blogs</NavLink>
             <NavLink to="/">Contact</NavLink>
           </Nav>
 
           <Nav className="item-info ">
-            <NavLink to="/login">Login/</NavLink>
-            <NavLink to="/register">Register</NavLink>
+            {user?.email ? (
+              <NavLink onClick={logOut} to="/login">
+                Log Out
+              </NavLink>
+            ) : (
+              <NavLink to="/login">Login</NavLink>
+              //  <NavLink to="/register">Register</NavLink>
+            )}
           </Nav>
         </Navbar.Collapse>
       </Navbar>

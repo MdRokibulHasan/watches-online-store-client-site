@@ -1,0 +1,51 @@
+.midbanner-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.midbanner-bg{
+    background-image: url(../../Images/background-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 175px 0 247px 0;
+}
+.mid-banner{
+    margin-left: 150px;
+    align-content: center;
+}
+.midbanner-title p{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: Jost,sans-serif;
+    letter-spacing: 1px;
+    
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color:#fff;
+    
+}
+.midbanner-title h2{
+    /* font-size: 12px; */
+    text-transform: uppercase;
+    font-family: Jost,sans-serif;
+    letter-spacing: 1px;
+    color:#fff;
+    margin: 30px 0;
+
+}
+.mid-button{
+    text-transform: uppercase;
+    font-family: Jost,sans-serif;
+    width: 150px;
+    height: 50px;
+    border: none;
+}
+
+.mid-button:hover{
+    background-color: black;
+    color: #fff;
+}

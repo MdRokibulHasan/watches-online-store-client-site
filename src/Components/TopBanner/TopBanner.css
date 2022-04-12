@@ -28,3 +28,7 @@
     background-color: none;
     color: #FFF;
 }
+.banner-section{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
