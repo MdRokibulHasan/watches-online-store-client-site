@@ -1,0 +1,30 @@
+.section-title{
+    margin-bottom: 70px;
+    /* margin-right: 150px; */
+}
+.carousel-item::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.3;
+}
+.banner{
+    font-family: "Jost",Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 10px 32px 10px 32px;
+    background-color: #FFF;
+    color: black;
+    border: none;
+    margin-bottom: 20px;
+}
+.banner:hover{
+    background-color: none;
+    color: #FFF;
+}

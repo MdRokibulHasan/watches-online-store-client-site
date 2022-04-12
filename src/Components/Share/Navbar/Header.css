@@ -1,0 +1,22 @@
+.nav{
+    margin-left: 250px;
+    
+}
+.item a{
+    text-decoration: none;
+    margin-right:15px;
+    padding: 5px;
+    font-size: 20px;
+    margin-left: 20px;
+    color: black;
+    
+}
+.item-info a{
+    text-decoration: none;
+    /* margin-right:15px;
+    padding: 5px; */
+    font-size: 20px;
+    /* margin-left: 20px; */
+    color: black;
+    
+}

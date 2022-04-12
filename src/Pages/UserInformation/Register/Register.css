@@ -1,0 +1,10 @@
+.register-section{
+    position: relative;
+    /* padding-bottom: 100px; */
+    /* padding-top: 100px; */
+    background-image: url(../../../Images/intro-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 660px;
+}
