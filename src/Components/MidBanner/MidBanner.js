@@ -15,7 +15,7 @@ const MidBanner = () => {
             </div>
           </div>
           <div className="midbanner-button">
-            <Link to={"products"}>
+            <Link to={"/products"}>
               <button className="mid-button">Shop Now</button>
             </Link>
           </div>
