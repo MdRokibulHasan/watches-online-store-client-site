@@ -87,7 +87,7 @@ const useFirebase = () => {
       .finally(() => setIsLoading(false));
   };
   useEffect(() => {
-    fetch(`https://immense-lowlands-46905.herokuapp.com/users${user.email}`)
+    fetch(`https://immense-lowlands-46905.herokuapp.com/users/${user.email}`)
       .then((res) => res.json())
       .then((data) => setAdmin(data.admin));
   }, [user.email]);
