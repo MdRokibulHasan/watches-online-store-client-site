@@ -59,32 +59,36 @@ const Categories = () => {
           <div className="new-item">
             <div className="item-card">
               <div className="row">
-                <div className="col-lg-6 col-md-6 col-12">
+                <div className="col-lg-5 col-md-5 col-12">
                   <div className="item-section">
-                    <div className="item-image">
-                      <img src={ItemImage6} alt="Image" />
-                    </div>
-                    <div className="item-content">
-                      <div className="item-title">
-                        <h2>New Arrivals</h2>
+                    <div className="item">
+                      <div className="item-image">
+                        <img src={ItemImage6} alt="Image" />
                       </div>
-                      <div className="item-button">
-                        <button className="btn">Shop Now</button>
+                      <div className="item-content">
+                        <div className="item-title">
+                          <h2>New Arrivals</h2>
+                        </div>
+                        <div className="item-button">
+                          <button className="item-btn">Shop Now</button>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-6 col-md-6 col-12">
+                <div className="col-lg-5 col-md-5 col-12">
                   <div className="item-section">
-                    <div className="item-image">
-                      <img src={ItemImage5} alt="Image" />
-                    </div>
-                    <div className="item-content">
-                      <div className="item-title">
-                        <h2>New Arrivals</h2>
+                    <div className="item">
+                      <div className="item-image">
+                        <img src={ItemImage5} alt="Image" />
                       </div>
-                      <div className="item-button">
-                        <button className="btn">Shop Now</button>
+                      <div className="item-content">
+                        <div className="item-title">
+                          <h2>New Arrivals</h2>
+                        </div>
+                        <div className="item-button">
+                          <button className="item-btn">Shop Now</button>
+                        </div>
                       </div>
                     </div>
                   </div>

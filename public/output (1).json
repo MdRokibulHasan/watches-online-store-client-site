@@ -1,98 +1,110 @@
  [
   {
-    "id": 1,
+    "key": 1,
     "name": "maserati",
     "title": "xorus youth black red",
     "image": "https://i.ibb.co/z8gB2MP/3.png",
     "price": "150",
+    "quantity":1,
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
   },
   {
-    "id": 2,
+    "key": 2,
     "name": "tag heuer",
     "title": "cluse minuit",
     "image": "https://i.ibb.co/7VN2N4y/5.png",
     "price": "170",
+    "quantity":1,
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
   },
   {
-    "id": 3,
+    "key": 3,
     "name": "castus fiesta",
     "title": "cactus summer splash",
     "image": "https://i.ibb.co/F3nxFc8/p16-450x450.jpg",
     "price": "180",
+    "quantity":1,
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
   },
   {
-    "id": 4,
+    "key": 4,
     "name": "castus fiesta",
     "title": "police tasman",
     "image": "https://i.ibb.co/txdKGsS/p15-450x450.jpg",
     "price": "200",
+    "quantity":1,
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
   },
   {
-    "id": 5,
+    "key": 5,
     "name": "maserati",
     "title": "paul hewitt miss ocean line",
     "image": "https://i.ibb.co/TcKsX21/p24-450x450-1.jpg",
     "price": "200",
+    "quantity":1,
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
   },
   {
-    "id": 6,
+    "key": 6,
     "name": "fossil",
     "title": "bering aurora collection",
     "image": "https://i.ibb.co/rppXRGs/p13-450x450.jpg",
     "price": "200",
+    "quantity":1,
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
   },
   {
-    "id": 7,
+    "key": 7,
     "name": "maserati",
     "title": "xorus youth black red",
     "image": "https://i.ibb.co/chNXzZv/p10-450x450.jpg",
     "price": "250",
+    "quantity":1,
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
   },
   {
-    "id": 8,
+    "key": 8,
     "name": "tag heuer",
     "title": "cluse minuit",
     "image": "https://i.ibb.co/TcKsX21/p24-450x450-1.jpg",
     "price": "100",
+    "quantity":1,
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
   },
   {
-    "id": 9,
+    "key": 9,
     "name": "castus fiesta",
     "title": "police tasman",
     "image": "https://i.ibb.co/VgSZmcG/p5-450x450.jpg",
     "price": "200",
+    "quantity":1,
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
   },
   {
-    "id": 10,
+    "key": 10,
     "name": "castus fiesta",
     "title": "cactus summer splash",
     "image": "https://i.ibb.co/C8zdMqN/p11-450x450.jpg",
     "price": "150",
+    "quantity":1,
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
   },
   {
-    "id": 11,
+    "key": 11,
     "name": "maserati",
     "title": "paul hewitt miss ocean line",
     "image": "https://i.ibb.co/TcKsX21/p24-450x450-1.jpg",
     "price": "250",
+    "quantity":1,
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
   },
   {
-    "id": 12,
+    "key": 12,
     "name": "tag heuer",
     "title": "cluse minuit",
     "image": "https://i.ibb.co/z8gB2MP/3.png",
     "price": "200",
+    "quantity":1,
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
   }
 ]

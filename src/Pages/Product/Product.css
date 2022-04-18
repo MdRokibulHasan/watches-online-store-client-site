@@ -30,6 +30,9 @@
     display: -webkit-box;
     max-width: 280px;
 }
+.card-image img{
+    cursor: pointer;
+}
 .card-price {
     color: #a0a0a0;
     font-family: Jost,sans-serif;
@@ -60,16 +63,17 @@
     background-color: #000;
     color: #fff;
 }
-.card-image{
+/* .card-image{
     position: relative;
-}
-.product-details{
+} */
+/* .product-details{
     display: none;
     position: absolute;
-    align-items: center;
-}
+    top: 50%;
+    left: 50%;
+} */
 
-.card:hover .product-details{
+/* .card:hover .product-details{
 display: block;
 background-color: #a0a0a0;
-}
+} */

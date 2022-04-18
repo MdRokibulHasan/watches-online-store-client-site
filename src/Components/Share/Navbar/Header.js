@@ -1,10 +1,14 @@
 import React from "react";
-import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Badge, Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
 import useAuth from "../../Hooks/useAuth";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+
 import "./Header.css";
 const Header = () => {
-  const { user, logOut } = useAuth();
+  const { allContexts, selectProduct } = useAuth();
+  const { user, logOut } = allContexts;
   return (
     <div className="container-fluid">
       <Navbar collapseOnSelect expand="lg" variant="light" bg="light">
@@ -14,10 +18,15 @@ const Header = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className="nav justify-content-end">
           <Nav className="item">
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/home">Home</NavLink>
             <NavLink to="/products">Product</NavLink>
-            <NavLink to="/home">Blogs</NavLink>
+
             <NavLink to="/">Contact</NavLink>
+            <NavLink to="/cart">
+              <FontAwesomeIcon style={{ fontSize: "20px" }} icon={faShoppingCart} />
+              <Badge>{selectProduct.length}</Badge>
+            </NavLink>
+            <NavLink to="/dashboard">Dashboard</NavLink>
           </Nav>
 
           <Nav className="item-info ">

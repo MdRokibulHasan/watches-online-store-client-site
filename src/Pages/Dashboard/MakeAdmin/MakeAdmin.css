@@ -1,0 +1,14 @@
+.make-admin{
+    height: 450px;
+    width: 450px;
+    align-items: center;
+    margin-top: 8%;
+    margin-left: 30%;
+    text-align: center;
+    /* border: 1px solid gray; */
+    box-shadow: 2px solid gray;
+}
+.make-admin input, btn{
+    margin-top: 20px;
+    width: 400px;
+}

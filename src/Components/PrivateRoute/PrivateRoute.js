@@ -3,7 +3,8 @@ import { Navigate, useLocation } from "react-router-dom";
 import useAuth from "../Hooks/useAuth";
 
 const PrivateRoute = ({ children, ...rest }) => {
-  const { user } = useAuth();
+  const { allContexts } = useAuth();
+  const { user } = allContexts;
   let location = useLocation();
   if (user.email) {
     return children;
