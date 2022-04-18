@@ -32,30 +32,35 @@ const Dashboard = () => {
                 <i class="fas fa-user"></i>Profile
               </Link>
             </li>
-            <li>
-              <Link to={"/dashboard/myorders"}>
-                <i class="fas fa-project-diagram"></i>My Order
-              </Link>
-            </li>
-            <li>
-              <Link to="/dashboard/reviews">
-                <i class="fas fa-address-book"></i>Add Reviews
-              </Link>
-            </li>
-            {admin && (
-              <li>
-                <Link to={`/dashboard/makeadmin`}>
-                  <i class="fas fa-address-card"></i>Make Admin
-                </Link>
-              </li>
-            )}
-            {admin && (
+
+            {admin ? (
               <li>
                 <Link to={`/dashboard/manageorder`}>
                   <i class="fas fa-blog"></i>Manage Order
                 </Link>
               </li>
+            ) : (
+              <li>
+                <Link to={"/dashboard/myorders"}>
+                  <i class="fas fa-project-diagram"></i>My Order
+                </Link>
+              </li>
             )}
+
+            {admin ? (
+              <li>
+                <Link to={`/dashboard/makeadmin`}>
+                  <i class="fas fa-address-card"></i>Make Admin
+                </Link>
+              </li>
+            ) : (
+              <li>
+                <Link to="/dashboard/reviews">
+                  <i class="fas fa-address-book"></i>Add Reviews
+                </Link>
+              </li>
+            )}
+
             {admin && (
               <li>
                 <Link to={`/dashboard/addproduct`}>
