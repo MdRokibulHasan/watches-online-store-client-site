@@ -26,7 +26,7 @@ const Header = () => {
               <FontAwesomeIcon style={{ fontSize: "20px" }} icon={faShoppingCart} />
               <Badge>{selectProduct.length}</Badge>
             </NavLink>
-            <NavLink to="/dashboard">Dashboard</NavLink>
+            {user?.email && <NavLink to="/dashboard">Dashboard</NavLink>}
           </Nav>
 
           <Nav className="item-info ">
